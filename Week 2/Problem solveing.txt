@@ -1,0 +1,11 @@
+>> Dear chatgpt, when I clicked the 'Preview' button in Glitch, it shows the following error :
+
+'Pass our error message'  
+
+
+-------------------------
+
+Ask about where we can run the code:
+
+>>Dear chatGPT, please can you let me know where in Glitch I can use this code :'npm install fastify-static' 
+

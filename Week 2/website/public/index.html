@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Submit Names</title>
+  <link rel="stylesheet" href="style.css"/>   
+</head>
+<body>
+  <h1>Submit a name</h1>
+
+  <form id="nameForm" aria-label="Name submission form">
+    <label for="nameInput" class="small" style="display:block;width:100%">Full name</label>
+    <input id="nameInput" type="text" name="name" placeholder="Enter full name" autocomplete="name" required />
+    <button id="submitBtn" type="submit">Add</button>
+  </form>
+
+  <section aria-labelledby="listTitle">
+    <h2 id="listTitle">Submitted names <span id="count" class="pill">0</span></h2>
+    <p class="small">Names will appear below as you submit them.</p>
+    <ul id="namesList" aria-live="polite"></ul>
+    <div style="margin-top:12px">
+      <button id="clearBtn" type="button">Clear all</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  </script>
+</body>
+</html>

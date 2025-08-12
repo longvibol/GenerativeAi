@@ -1,0 +1,107 @@
+Website
+
+- Dynamic Web Development : the webpage that can change update Automaticaly without you reload the page everytime. 
++ user interaction 
++ Front-End : JavaScrip is like the engine that make the dy website working (buttons, forms, and content)
++ Back-End : server, database and all the logic sit 
+
+- Static website : it is like the digital fliyer or ditigal brouger   
+
+
+----------------------------------------------------------------------
+
++ Server: is like the manager to make thing done and keep track off all the order from FE to BE 
+(communication) 
+
++API: application Programming Interface (like the system that can take to another system service) 
+
++ route is the direction to the destination (www.user.com) is the route 
++ GET: is like reading a book. You ask for information, and the server sends it to you. 
++ Post: is like writing a new entry in a notebook. 
+
+summary: HTTP 
+
+- Endpoints: Specific address to access something(like /uers) 
+- Routes: Paths to reach those addresses. 
+- GET: Use to retrieve (read) data. 
+- POST: Used to send(write) new data. 
+- Server acts like the middleman- connecting the FE and BE. 
+- API endpoints : the specific orders 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

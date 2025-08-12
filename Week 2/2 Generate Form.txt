@@ -1,0 +1,126 @@
+Promp:
+
+==> HTML
+
+>> Generate an HTML form for submitting names, and a section to display the submitted names in a list
+
+==> CSS
+
+>> Generate CSS to style a form and a list of names. Make it look clean and modern
+
+==> JS file 
+
+>>Generate JavaScript that submits a form using the fetch API to a Fastify code endpoint and update the list dynamically by fetching the name form the server
+
+
+==> Create Server from Fastify framework 
+
+>> Generate Fastify code to handle a POST request that add a name to an array and a GET request that return the array of names.
+
+Ex:
+
+- POST : http://localhost:3000/names
+
+{
+  "name": "Alice"
+}
+
+
+- GET: http://localhost:3000/names
+
+{
+"names":[
+"Steven",
+"Vibol"
+]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

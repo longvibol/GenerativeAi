@@ -1,0 +1,6 @@
+what is Server-Side Programming ??? 
+
+Server-side programming refers to the logic and operations that run on a web server rather than in the user's browser. It's the backbone of dynamic websites and web applications, handling everything from database interactions to user authentication and business logic.
+
+Choosing your tools: Node.js / Replit : to create server side programming 
+

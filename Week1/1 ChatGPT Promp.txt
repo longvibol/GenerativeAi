@@ -1,0 +1,74 @@
+1. Create HTML structure 
+
+Generate an HTML structure for a personal portfolio website with section for Home, About, Portfolio, and Contact
+
+
+2. Generate CSS : style 
+
+Generate CSS to style a personal portfolio website with a modern, clean design, including responsive design elements
+
+
+>> please link our style.css to index.html
+
+3. Add javaScrip to the page 
+
+Generate JavaScript to add a 'Back to Top' button that appears when the user scrolls down the page with the grey color button 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
