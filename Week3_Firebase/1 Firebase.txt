@@ -1,0 +1,27 @@
+1. Firebase : create project 
+2. Firestore : we create database 
+
+==> Generate HTML 
+
+>> Dear ChatGPT, please generate the code for a form inside the <body> section of HTML
+
+==> Generate JS code 
+
+
+Dear chatGPT, please generate JavaScript code that saves a message to Firestore when a form is submitted, make suer that you provide the code which we can directly paste into our script.js file in Replit
+
+
+==> verify code when it can not connect to Firestore 
+
+>> Here is my in index.html code: '-----' and here is the script.js code : '----' now, please help check and verify the code. I want to send the information to store in the Firestore
+
+
+Link Firestore
+
+https://console.firebase.google.com/u/0/project/replitdatabase-3e145/firestore/databases/-default-/data/~2Fcontacts~2FMHSovAIpJhjpSBAQUzhM
+
+Link Repit 
+
+https://replit.com/@vibollong/ReplitFirebase#style.css
+
+
