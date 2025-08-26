@@ -1,0 +1,16 @@
+{
+  "name": "express-swagger-example",
+  "version": "1.0.0",
+  "description": "Express server with Swagger documentation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3"
+  }
+}

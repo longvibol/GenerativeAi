@@ -1,0 +1,11 @@
+1. Create repository : my-portfolio
+
+>> upload the file to the repository 
+
+Then Setting -> Pages -> 
+
+- Build and deployment : Deploy from a branch 
+- Branch : main and /(root)
+
+
+>> Code -> Packages -> Publish your first package 

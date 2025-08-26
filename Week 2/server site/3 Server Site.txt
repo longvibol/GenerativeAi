@@ -1,0 +1,55 @@
+what is Server-Side Programming ??? 
+
+Server-side programming refers to the logic and operations that run on a web server rather than in the user's browser. It's the backbone of dynamic websites and web applications, handling everything from database interactions to user authentication and business logic.
+
+Choosing your tools: Node.js / Replit : to create server side programming 
+
+
+>> Create Node js server
+
+Dear chatGPt, I am using replit to create simple server. In Replit, I have selected node.js template, therefore please provide me with the information relevant to my template in Replit. Now, please generate a simple node.js server using Express that responds with 'Hello from the server!" when someone visits the homepages.
+
+
+>> summary from chatGPT
+
+Here’s a Replit-ready Node.js + Express server that will respond with
+Hello from the server! when someone visits the homepage (/).
+
+
+Add the current date and time in webpage 
+
+>> Dear chatgpt, thanks for sharing the code. Please generate a node.js route using Express that responds with the current date and time in a human-readable format.
+
+// index.js
+const express = require("express");
+const app = express();
+
+app.get("/", (req, res) => {
+  res.send("Hello from the server!");
+});
+
+// Route for current date and time
+app.get("/datetime", (req, res) => {
+  const now = new Date();
+  const formattedDate = now.toLocaleString("en-US", {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric",
+    hour12: true,
+  });
+  res.send(`Current date and time: ${formattedDate}`);
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});
+
+
+-----------------------------------------------------------
+
+

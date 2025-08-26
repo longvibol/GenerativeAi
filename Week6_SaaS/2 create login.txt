@@ -1,0 +1,9 @@
+>> Thanks for the code, I have connected to the MongoDB successfully! Now, please help me to generate Express routes for registering and logging in users with MongoDB as the database, including password hashing for security. Also, do let me know if I have to create a new file for this!
+
+
+>> Install npm I dotenv 
+
+Then we can create file: .env and add the environment:
+
+MONGODB_URI=mongodb+srv://hello12345:7p26iL88hUWllngN@noteappcluster.yst63k8.mongodb.net/?retryWrites=true&w=majority&appName=NoteAppCluster
+JWT_SECRET=myapp_jwt_secret_2024_abcd1234efgh5678ijkl9012mnop3456qrst7890

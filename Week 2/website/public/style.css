@@ -1,0 +1,95 @@
+/* styles.css */
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  line-height: 1.5;
+  color: #333;
+}
+body {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9fafb;
+}
+h1, h2 {
+  font-weight: 600;
+  color: #111827;
+}
+form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+input[type=text] {
+  flex: 1 1 240px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+input[type=text]:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+button {
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+#submitBtn {
+  background-color: #2563eb;
+  color: white;
+}
+#submitBtn:hover {
+  background-color: #1d4ed8;
+}
+#clearBtn {
+  background-color: #ef4444;
+  color: white;
+}
+#clearBtn:hover {
+  background-color: #dc2626;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+li {
+  background: #fff;
+  padding: 10px 14px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  margin-bottom: 8px;
+}
+li button {
+  background: #f3f4f6;
+  color: #374151;
+}
+li button:hover {
+  background: #e5e7eb;
+}
+.small {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+.pill {
+  background: #e5e7eb;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: #374151;
+}
